@@ -14,9 +14,9 @@ public class jogoAdivinhação {
             numJog = leitura.nextInt();
 
             if (numJog < numSec) {
-                System.out.println("0 número maior");
+                System.out.println("0 número é maior");
             } else if (numJog > numSec) {
-                System.out.println("0 número menor");
+                System.out.println("0 número é menor");
             } else if (numSec == numJog) {
                 System.out.println("Parabéns, você acertou");
                 break;
