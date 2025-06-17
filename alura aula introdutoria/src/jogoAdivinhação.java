@@ -6,7 +6,7 @@ public class jogoAdivinhação {
         int numSec = new Random().nextInt(50);
         int rodadas = 0;
         int numJog = 0;
-        System.out.println("Um número de 0 a 100 foi escolhido, tente adivinhar qual é, você tem 5 tentativas. ");
+        System.out.println("Um número de 0 a 50 foi escolhido, tente adivinhar qual é, você tem 5 tentativas. ");
 
         while (rodadas < 5 || numSec == numJog) {
             rodadas++;
